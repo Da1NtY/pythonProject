@@ -8,7 +8,7 @@ R = 6317
 print("地球的表面积为：{}平方公里".format(round(4*math.pi*R*R,2)))
 
 # 计算地球体积
-print("地球的体积为：{}立方公里".format(round(4*math.pi*R*R*R),2))
+print("地球的体积为：{}立方公里".format(round(4*math.pi*R*R*R/3),2))
 
 # 计算地球赤道的周长
 print("地球的赤道周长为：{}公里".format(round(2*math.pi*R,2)))
