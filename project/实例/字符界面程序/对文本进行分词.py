@@ -29,7 +29,7 @@ def get_char(txt):
 if __name__ == '__main__':
     # 打开文件，读出文件的文本
     # 其中test.txt文件是当前目录下的一篇英文文章，文本类型
-    with open('test.txt','r') as f:
+    with open('test.txt', 'r') as f:
         vtext = f.read()
     #调用排序函数
     vstr = get_char(vtext)
