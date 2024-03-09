@@ -21,6 +21,8 @@ credit_sum = credit_Python + credit_Math + credit_English + credit_PE + credit_A
 # 输入每学分应缴纳的学费
 credit_price = float(input("请输入每学分应缴纳的学费："))
 
+# 输出第一学期选修学分
+print("你本学期选修了{}个学分".format(credit_sum))
 # 输出第一学期应缴纳多少学费
 print("第一学期应缴纳的学费为{}".format(round(credit_sum*credit_price,2)))
 
