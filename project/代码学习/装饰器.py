@@ -8,8 +8,9 @@
     def wrapper(fn):              wrapper： 装饰器    fn： 目标函数
         def inner(*args, **kwargs):
             # 在目标函数执行之前
-            fn(*args, **kwargs)
+            ret = fn(*args, **kwargs)
             # 在目标函数执行之后
+            return ret
         return inner       千万别加小括号
 '''
 # def guanjia(game):
