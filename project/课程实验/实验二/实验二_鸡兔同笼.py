@@ -30,11 +30,14 @@ head = int(input("请输入头数："))
 feet = int(input("请输入脚数："))
 
 
-for i in range(head):
-    for j in range(head):
+for i in range(1,head+1):
+    for j in range(1,head+1):
         if (i + j) == head and (2*i + 4*j) == feet:
             print("鸡{}只".format(str(i)))
             print("兔{}只".format(str(j)))
             break
         elif i == head and 2*i != feet:
             print("Data Error")
+            break
+    if (i + j) == head and (2 * i + 4 * j) == feet:
+        break
