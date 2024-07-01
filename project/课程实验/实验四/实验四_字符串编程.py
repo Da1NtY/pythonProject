@@ -42,7 +42,7 @@ s2 = s.upper()
 print(s2)
 
 # 用split()方法把字符串拆分为四个字符串，
-#     然后再用join()方法把四个字符串连接为一个没有任何分隔符的长字符串
+# 然后再用join()方法把四个字符串连接为一个没有任何分隔符的长字符串
 str1 = s.split(".")
 print(str1)
 str_sum = "".join(str1)

@@ -59,7 +59,7 @@ print(s)
 
 # filter
 lst = ["八嘎亚路", "哒唛吆", "吆西", "哈撒ki"]
-f = filter( lambda x: x.startswith("哒"), lst)
+f = filter(lambda x: x.startswith("哒"), lst)
 print(list(f))
 
 # map
